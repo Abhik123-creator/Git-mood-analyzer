@@ -1,0 +1,26 @@
+{
+	"name": "git-mood-analyzer",
+	"version": "1.0.1",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"git-mood-analyzer": "./index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"git",
+		"mood",
+		"cli",
+		"sentiment",
+		"tool"
+	],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"sentiment": "^5.0.2",
+		"simple-git": "^3.28.0"
+	}
+}
